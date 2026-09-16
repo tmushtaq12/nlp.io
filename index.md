@@ -21,6 +21,12 @@ title: NLP Systems Portfolio
     </nav>
   </header>
 
+  <div class="shell desktop-icons" aria-label="Desktop shortcuts">
+    <a class="desktop-icon" href="#work"><span class="icon-art">▣</span><span>My Projects</span></a>
+    <a class="desktop-icon" href="https://github.com/tmushtaq12/analytics-portfolio"><span class="icon-art">▤</span><span>Code Repo</span></a>
+    <a class="desktop-icon" href="#method"><span class="icon-art">?</span><span>Read Me</span></a>
+  </div>
+
   <main>
     <section class="hero">
       <div class="shell">
@@ -110,7 +116,10 @@ title: NLP Systems Portfolio
   </main>
 
   <footer class="shell footer" id="contact">
+    <a class="start-button" href="{{ '/' | relative_url }}">▣ Start</a>
+    <span class="task-divider"></span>
     <strong>Talha Mushtaq</strong> · NLP and GenAI portfolio · <a href="https://www.linkedin.com/in/tmushtaq/">LinkedIn</a> · <a href="mailto:tmushtaq599@outlook.com">Email</a> · <a href="https://github.com/tmushtaq12">GitHub</a>
+    <span class="clock">NLP.EXE</span>
   </footer>
 </body>
 </html>
