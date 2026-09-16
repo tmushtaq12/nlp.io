@@ -1,0 +1,9 @@
+title: NLP Systems Portfolio
+email: tmushtaq599@outlook.com
+url: https://tmushtaq12.github.io
+baseurl: /nlp.io
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - LICENSE
