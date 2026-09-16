@@ -81,6 +81,12 @@ h2 { margin: 0; font-size: clamp(1.45rem, 4vw, 2.3rem); line-height: 1; letter-s
 .case-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 20px 0; }
 .case-metric { padding: 12px; background: white; border: 2px inset var(--window); }
 .case-metric strong { display: block; font-family: "Courier New", monospace; font-size: 1.5rem; }
+.case-metric span { display: block; margin-top: 4px; }
+.guide-step { display: grid; grid-template-columns: 42px 1fr; gap: 12px; margin: 12px 0; padding: 12px; background: #dcdcdc; border: 2px inset var(--window); }
+.step-number { display: grid; width: 32px; height: 32px; place-items: center; color: white; background: var(--navy); font-family: "Courier New", monospace; font-weight: 700; }
+.guide-step h2 { margin: 0 0 8px; padding: 0; color: var(--ink); background: transparent; font-size: 1.15rem; }
+.guide-step p { margin: 0 0 8px; }
+.callout { padding: 10px; background: #ffffcc; border: 1px solid var(--window-dark); }
 .case-link { display: inline-block; margin-top: 14px; padding: 7px 12px; border: 2px outset var(--window); background: var(--window); color: var(--ink); font-weight: 700; text-decoration: none; }
 .case-link:active { border-style: inset; }
 @media (max-width: 800px) {
@@ -99,4 +105,5 @@ h2 { margin: 0; font-size: clamp(1.45rem, 4vw, 2.3rem); line-height: 1; letter-s
   .clock { margin-left: 0; }
   .case-body { padding: 16px; }
   .case-metrics { grid-template-columns: 1fr; }
+  .guide-step { grid-template-columns: 34px 1fr; gap: 8px; }
 }
