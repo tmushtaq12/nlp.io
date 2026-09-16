@@ -58,42 +58,42 @@ title: NLP Systems Portfolio
             <h3>Offensive-speech detection</h3>
             <p>A class-balanced TF-IDF and logistic-regression safety baseline on the real TweetEval benchmark, with PII masking and error visibility.</p>
             <div class="tags"><span class="tag">NLP</span><span class="tag">F1</span><span class="tag">PII</span></div>
-            <a class="card-link" href="https://github.com/tmushtaq12/analytics-portfolio/tree/main/projects/nlp-safety-pipeline">Read the case study →</a>
+            <a class="card-link" href="{{ '/projects/nlp-safety/' | relative_url }}">Open case study →</a>
           </article>
           <article class="card">
             <div class="number">02 / RETRIEVAL</div>
             <h3>RAG retrieval evaluation</h3>
             <p>A transparent SQuAD retrieval baseline that measures whether answer-bearing context reaches the generator at rank 1 and rank 5.</p>
             <div class="tags"><span class="tag">RAG</span><span class="tag">Recall@k</span><span class="tag">TF-IDF</span></div>
-            <a class="card-link" href="https://github.com/tmushtaq12/analytics-portfolio/tree/main/projects/rag-retrieval-evaluation">Read the case study →</a>
+            <a class="card-link" href="{{ '/projects/rag-retrieval/' | relative_url }}">Open case study →</a>
           </article>
           <article class="card">
             <div class="number">03 / GENAI</div>
             <h3>Evaluation lab</h3>
             <p>A real Hugging Face QA experiment tracking exact match, token F1, mean latency, P95 latency, and representative model errors.</p>
             <div class="tags"><span class="tag">Transformers</span><span class="tag">Latency</span><span class="tag">QA</span></div>
-            <a class="card-link" href="https://github.com/tmushtaq12/analytics-portfolio/tree/main/projects/genai-evaluation-lab">Read the case study →</a>
+            <a class="card-link" href="{{ '/projects/genai-evaluation/' | relative_url }}">Open case study →</a>
           </article>
           <article class="card">
             <div class="number">04 / MODELING</div>
             <h3>Readable regression</h3>
             <p>A scikit-learn model with preprocessing, cross-validation, coefficient interpretation, residual analysis, and a baseline comparison.</p>
             <div class="tags"><span class="tag">Python</span><span class="tag">ML</span><span class="tag">Diagnostics</span></div>
-            <a class="card-link" href="https://github.com/tmushtaq12/analytics-portfolio/tree/main/projects/linear-regression">Read the case study →</a>
+            <a class="card-link" href="{{ '/projects/regression/' | relative_url }}">Open case study →</a>
           </article>
           <article class="card">
             <div class="number">05 / FOUNDATIONS</div>
             <h3>Data and SQL analysis</h3>
             <p>Business-focused SQL and exploratory analysis projects that demonstrate data cleaning, aggregation, KPI design, and communication.</p>
             <div class="tags"><span class="tag">SQL</span><span class="tag">Pandas</span><span class="tag">KPI</span></div>
-            <a class="card-link" href="https://github.com/tmushtaq12/analytics-portfolio">Browse the repository →</a>
+            <a class="card-link" href="{{ '/projects/foundations/' | relative_url }}">Open case study →</a>
           </article>
           <article class="card">
             <div class="number">06 / NEXT</div>
             <h3>Production path</h3>
             <p>The next layer is API serving, embeddings, hybrid retrieval, prompt/version tracking, Docker, and a CI evaluation gate.</p>
             <div class="tags"><span class="tag">FastAPI</span><span class="tag">Docker</span><span class="tag">MLOps</span></div>
-            <a class="card-link" href="https://github.com/tmushtaq12/analytics-portfolio/blob/main/docs/learning-guide.md">Follow the learning guide →</a>
+            <a class="card-link" href="{{ '/projects/production/' | relative_url }}">Open roadmap →</a>
           </article>
         </div>
       </div>
