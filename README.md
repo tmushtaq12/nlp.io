@@ -1,6 +1,6 @@
 # NLP Systems Portfolio
 
-Visual portfolio for NLP, RAG, GenAI evaluation, and machine-learning experiments.
+Portfolio for NLP, RAG, GenAI evaluation, and machine-learning experiments.
 
 ## Live site
 
