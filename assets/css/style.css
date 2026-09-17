@@ -67,6 +67,13 @@ h2 { margin: 0; font-size: clamp(1.45rem, 4vw, 2.3rem); line-height: 1; letter-s
 .story-block { padding: 14px; background: var(--window); border: 2px outset var(--window); }
 .story-block h3 { margin-top: 0; font-size: 1.15rem; }
 .story-block ul { padding-left: 20px; margin-bottom: 0; }
+.learning-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
+.learning-card { min-height: 190px; padding: 16px; background: var(--window); border: 2px outset var(--window); }
+.learning-card h3 { margin: 12px 0 8px; font-size: 1.2rem; line-height: 1.1; }
+.learning-card p { margin: 0; }
+.learning-label { color: var(--navy); font-family: "Courier New", monospace; font-size: .72rem; font-weight: 700; text-transform: uppercase; }
+.certification { background: #ffffcc; }
+.certificate-mark { display: inline-block; margin-top: 16px; padding: 4px 7px; border: 1px solid var(--window-dark); background: var(--window); font-family: "Courier New", monospace; font-size: .7rem; font-weight: 700; }
 .footer { display: flex; align-items: center; gap: 8px; min-height: 38px; margin-top: 12px; padding: 3px 5px; color: var(--ink); background: var(--window); border: 2px outset var(--window); font-size: .8rem; }
 .start-button { padding: 4px 9px; border: 2px outset var(--window); color: var(--ink); font-weight: 700; text-decoration: none; }
 .start-button:active { border-style: inset; }
@@ -106,4 +113,5 @@ h2 { margin: 0; font-size: clamp(1.45rem, 4vw, 2.3rem); line-height: 1; letter-s
   .case-body { padding: 16px; }
   .case-metrics { grid-template-columns: 1fr; }
   .guide-step { grid-template-columns: 34px 1fr; gap: 8px; }
+  .learning-grid { grid-template-columns: 1fr; }
 }

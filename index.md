@@ -16,6 +16,7 @@ title: NLP Systems Portfolio
     <a class="brand" href="{{ '/' | relative_url }}">TM / NLP SYSTEMS</a>
     <nav class="nav" aria-label="Main navigation">
       <a href="#work">Work</a>
+      <a href="#learning">Learning</a>
       <a href="#method">Method</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -96,6 +97,36 @@ title: NLP Systems Portfolio
             <a class="card-link" href="{{ '/projects/production/' | relative_url }}">Open roadmap →</a>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="learning">
+      <div class="shell">
+        <div class="section-heading">
+          <h2>Learning desk</h2>
+          <p>The books and learning milestones shaping how I think about machine learning and agentic AI.</p>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card">
+            <div class="learning-label">Currently building context</div>
+            <h3>Hands-On Large Language Models</h3>
+            <p>Language Understanding and Generation by Jay Alammar.</p>
+            <a class="card-link" href="https://www.goodreads.com/book/show/210408850-hands-on-large-language-models">View on Goodreads →</a>
+          </article>
+          <article class="learning-card">
+            <div class="learning-label">Machine learning foundations</div>
+            <h3>Grokking Machine Learning</h3>
+            <p>By Luis G. Serrano. A clear foundation for understanding models, loss, and learning.</p>
+            <a class="card-link" href="https://www.goodreads.com/book/show/55249661-grokking-machine-learning">View on Goodreads →</a>
+          </article>
+          <article class="learning-card certification">
+            <div class="learning-label">Certification</div>
+            <h3>Introduction to Agentic AI</h3>
+            <p>SoloLearn certification covering the foundations of agentic AI systems.</p>
+            <span class="certificate-mark">CERTIFIED / SOLOLEARN</span>
+          </article>
+        </div>
+        <a class="button" href="https://www.goodreads.com/user/show/181751869?ref=nav_profile_l">Open my Goodreads profile</a>
       </div>
     </section>
 
