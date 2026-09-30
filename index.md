@@ -78,8 +78,8 @@ title: NLP Systems Portfolio
           <article class="card">
             <div class="number">04 / MODELING</div>
             <h3>Readable regression</h3>
-            <p>A scikit-learn model with preprocessing, cross-validation, coefficient interpretation, residual analysis, and a baseline comparison.</p>
-            <div class="tags"><span class="tag">Python</span><span class="tag">ML</span><span class="tag">Diagnostics</span></div>
+            <p>A leakage-safe comparison of a best-fit line, linear models, a log target, and a small neural network with residual diagnostics.</p>
+            <div class="tags"><span class="tag">Regression</span><span class="tag">MLP</span><span class="tag">Error analysis</span></div>
             <a class="card-link" href="{{ '/projects/regression/' | relative_url }}">View my work →</a>
           </article>
           <article class="card">
@@ -104,7 +104,7 @@ title: NLP Systems Portfolio
       <div class="shell">
         <div class="section-heading">
           <h2>Learning desk</h2>
-          <p>The books and learning milestones shaping how I think about machine learning and agentic AI.</p>
+          <p>Books, learning milestones, and practical notes on regression, model errors, and neural networks.</p>
         </div>
         <div class="learning-grid">
           <article class="learning-card">
@@ -126,6 +126,7 @@ title: NLP Systems Portfolio
             <span class="certificate-mark">CERTIFIED / SOLOLEARN</span>
           </article>
         </div>
+        <a class="button" href="{{ '/projects/ml-foundations/' | relative_url }}">Open ML foundations guide</a>
         <a class="button" href="https://www.goodreads.com/user/show/181751869?ref=nav_profile_l">Open my Goodreads profile</a>
       </div>
     </section>

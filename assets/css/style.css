@@ -94,6 +94,16 @@ h2 { margin: 0; font-size: clamp(1.45rem, 4vw, 2.3rem); line-height: 1; letter-s
 .guide-step h2 { margin: 0 0 8px; padding: 0; color: var(--ink); background: transparent; font-size: 1.15rem; }
 .guide-step p { margin: 0 0 8px; }
 .callout { padding: 10px; background: #ffffcc; border: 1px solid var(--window-dark); }
+.case-body pre { max-width: 100%; overflow-x: auto; padding: 12px; background: #ffffff; border: 2px inset var(--window); }
+.case-body pre code { white-space: pre; }
+.table-scroll { max-width: 100%; overflow-x: auto; margin: 14px 0; }
+.results-table { width: 100%; min-width: 620px; border-collapse: collapse; background: #ffffff; }
+.results-table th, .results-table td { padding: 8px; border: 1px solid var(--window-dark); text-align: left; }
+.results-table thead { color: white; background: var(--navy); }
+.case-image { display: block; width: 100%; height: auto; border: 1px solid var(--window-dark); }
+.learning-figure { max-width: 680px; margin: 18px 0; padding: 10px; background: #ffffff; border: 2px inset var(--window); }
+.learning-figure svg { display: block; width: 100%; height: auto; }
+.learning-figure figcaption { margin-top: 8px; font-size: .82rem; }
 .case-link { display: inline-block; margin-top: 14px; padding: 7px 12px; border: 2px outset var(--window); background: var(--window); color: var(--ink); font-weight: 700; text-decoration: none; }
 .case-link:active { border-style: inset; }
 @media (max-width: 800px) {
